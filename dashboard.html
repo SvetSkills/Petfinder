@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trace & Return | Dashboard</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <section class="dashboard">
+
+        <div class="dashboard__nav">
+            
+            <a class="logo-noword" href="#">
+                <img src="images/logo-noword.png" alt="logotype">
+            </a>
+
+            <ul class="dashboard__tabs">
+
+                <li class="dashboard__tab dashboard__tab--dashboard dashboard__tab--active">Dashboard</li>
+
+                <li class="dashboard__tab dashboard__tab--analytics">Analytics</li>
+
+                <li class="dashboard__tab dashboard__tab--account">Account Settings </li>
+
+            </ul>
+
+            <div class="dashboard__username">
+
+                <div class="dashboard__profile">
+
+                    <div class="dashboard__avatar">
+                        <span>RJ</span>
+                    </div>
+
+                    <div class="dashboard__info">
+
+                        <span class="dashboard__name">Riya Jain</span>
+
+                        <span class="dashboard__email">hi@riyaja.in</span>
+
+                    </div>
+
+                </div>
+
+                <button class="dashboard__logout">Logout</button>
+
+            </div>
+
+        </div>
+
+        <div class="dashboard__content">
+
+            <div class="dashboard__inner">
+
+                <div class="dashboard__box">
+
+                    <button class="burger-btn">
+                        Burger Button
+                    </button>
+
+                    <span class="title dashboard__title">
+                        Dashboard
+                    </span>
+                    
+                </div>
+
+                <form class="dashboard__search">
+
+                    <div class="dashboard__form">
+
+                        <input class="input dashboard__input" type="text" placeholder="Search by tag ID, name">
+                    
+                        <button class="dashboard__input--clear" type="button">clear</button>
+
+                    </div>
+                    
+                    <button class="button dashboard__btn">Add New Tag</button>
+    
+                </form>
+    
+                <div class="table">
+
+                    <div class="table__header">
+
+                        <div class="table__item-img"></div>
+
+                        <div class="table__item-tag table__item-tag--title">
+                            tag id
+                            
+                            <div class="id-form__box">
+
+                                <div class="tooltip-tag">
+
+                                    <div class="tooltip-tag__icon"></div>
+        
+                                    <div class="tooltip-tag__id">
+        
+                                        <div class="tooltip-tag__text">
+                                            The <span>six digit number on the back of the tag</span> is your items unique code that is used to find it if it ever go missing
+                                        </div>
+        
+                                        <div class="tooltip-tag__img">
+                                            <img src="images/tooltip-img.jpg" alt="">
+                                        </div>
+        
+                                        <span class="tooltip-tag__link">Example of a 6 digit Tag-ID </span>
+        
+                                    </div>
+        
+                                </div>
+        
+                            </div>
+
+                        </div>
+
+                        <div class="table__item-name">item name</div>
+
+                        <div class="table__item-email">email</div>
+
+                        <div class="table__item-number">number</div>
+
+                        <div class="table__item-address">address</div>
+
+                        <div class="table__item-state table__item-state--title">
+                            state
+
+                            <div class="id-form__box">
+
+                                <div class="tooltip-tag">
+
+                                    <div class="tooltip-tag__icon"></div>
+        
+                                    <div class="tooltip-tag__id">
+        
+                                        <div class="tooltip-tag__text">
+                                            The <span>six digit number on the back of the tag</span> is your items unique code that is used to find it if it ever go missing
+                                        </div>
+        
+                                        <div class="tooltip-tag__img">
+                                            <img src="images/tooltip-img.jpg" alt="">
+                                        </div>
+        
+                                        <span class="tooltip-tag__link">Example of a 6 digit Tag-ID </span>
+        
+                                    </div>
+        
+                                </div>
+        
+                            </div>
+
+                        </div>
+
+                        <div class="table__item-actions">actions</div>
+
+                    </div>
+
+                    <ul class="table__content">
+
+                        <li class="table__row">
+
+                            <div class="table__item-img">
+                                <img src="images/pet-img.jpg" alt="pet">
+                            </div>
+
+                            <div class="table__item-tag">ghay12</div>
+
+                            <div class="table__item-name">Marco</div>
+
+                            <div class="table__item-email">hi@riyaja.in</div>
+
+                            <div class="table__item-number">+412(2090)500</div>
+
+                            <div class="table__item-address">St. Bernard road</div>
+
+                            <div class="table__item-state">
+                                <label class="switch">
+                                    <input class="switch__input" type="checkbox">
+                                    <span class="switch__slider"></span>
+                                </label>
+                                <span class="table__item-state--block"></span>
+                            </div>
+
+                            <div class="table__item-actions">
+                                <button class="table__item-btn table__item-btn--diagram">analytics</button>
+                                <button class="table__item-btn table__item-btn--edit">edit</button>
+                                <button class="table__item-btn table__item-btn--lock">lock</button>
+                                <button class="table__item-btn table__item-btn--delete">delete</button>
+                            </div>
+                            
+                            <button class="dropdown">dropdown</button>
+
+                        </li>
+
+                        <li class="table__row">
+
+                            <div class="table__item-img">
+                                <img src="images/pet-img.jpg" alt="pet">
+                            </div>
+
+                            <div class="table__item-tag">ghay12</div>
+
+                            <div class="table__item-name">Marco</div>
+
+                            <div class="table__item-email">hi@riyaja.in</div>
+
+                            <div class="table__item-number">+412(2090)500</div>
+
+                            <div class="table__item-address">St. Bernard road</div>
+
+                            <div class="table__item-state">
+                                <label class="switch">
+                                    <input class="switch__input" type="checkbox">
+                                    <span class="switch__slider"></span>
+                                </label>
+                                <span class="table__item-state--block"></span>
+                            </div>
+
+                            <div class="table__item-actions">
+                                <button class="table__item-btn table__item-btn--diagram">analytics</button>
+                                <button class="table__item-btn table__item-btn--edit">edit</button>
+                                <button class="table__item-btn table__item-btn--lock">lock</button>
+                                <button class="table__item-btn table__item-btn--delete">delete</button>
+                            </div>
+                            
+                            <button class="dropdown">dropdown</button>
+
+                        </li>
+
+                        <li class="table__row">
+
+                            <div class="table__item-img">
+                                <img src="images/pet-img.jpg" alt="pet">
+                            </div>
+
+                            <div class="table__item-tag">ghay12</div>
+
+                            <div class="table__item-name">Marco</div>
+
+                            <div class="table__item-email">hi@riyaja.in</div>
+
+                            <div class="table__item-number">+412(2090)500</div>
+
+                            <div class="table__item-address">St. Bernard road</div>
+
+                            <div class="table__item-state">
+                                <label class="switch">
+                                    <input class="switch__input" type="checkbox">
+                                    <span class="switch__slider"></span>
+                                </label>
+                                <span class="table__item-state--block"></span>
+                            </div>
+
+                            <div class="table__item-actions">
+                                <button class="table__item-btn table__item-btn--diagram">analytics</button>
+                                <button class="table__item-btn table__item-btn--edit">edit</button>
+                                <button class="table__item-btn table__item-btn--lock">lock</button>
+                                <button class="table__item-btn table__item-btn--delete">delete</button>
+                            </div>
+                            
+                            <button class="dropdown">dropdown</button>
+
+                        </li>
+
+                        <li class="table__row">
+
+                            <div class="table__item-img">
+                                <img src="images/pet-img.jpg" alt="pet">
+                            </div>
+
+                            <div class="table__item-tag">ghay12</div>
+
+                            <div class="table__item-name">Marco</div>
+
+                            <div class="table__item-email">hi@riyaja.in</div>
+
+                            <div class="table__item-number">+412(2090)500</div>
+
+                            <div class="table__item-address">St. Bernard road</div>
+
+                            <div class="table__item-state">
+                                <label class="switch">
+                                    <input class="switch__input" type="checkbox">
+                                    <span class="switch__slider"></span>
+                                </label>
+                                <span class="table__item-state--block"></span>
+                            </div>
+
+                            <div class="table__item-actions">
+                                <button class="table__item-btn table__item-btn--diagram">analytics</button>
+                                <button class="table__item-btn table__item-btn--edit">edit</button>
+                                <button class="table__item-btn table__item-btn--lock">lock</button>
+                                <button class="table__item-btn table__item-btn--delete">delete</button>
+                            </div>
+                            
+                            <button class="dropdown">dropdown</button>
+
+                        </li>
+
+                        <li class="table__row">
+
+                            <div class="table__item-img">
+                                <img src="images/pet-img.jpg" alt="pet">
+                            </div>
+
+                            <div class="table__item-tag">ghay12</div>
+
+                            <div class="table__item-name">Marco</div>
+
+                            <div class="table__item-email">hi@riyaja.in</div>
+
+                            <div class="table__item-number">+412(2090)500</div>
+
+                            <div class="table__item-address">St. Bernard road</div>
+
+                            <div class="table__item-state">
+                                <label class="switch">
+                                    <input class="switch__input" type="checkbox">
+                                    <span class="switch__slider"></span>
+                                </label>
+                                <span class="table__item-state--block"></span>
+                            </div>
+
+                            <div class="table__item-actions">
+                                <button class="table__item-btn table__item-btn--diagram">analytics</button>
+                                <button class="table__item-btn table__item-btn--edit">edit</button>
+                                <button class="table__item-btn table__item-btn--lock">lock</button>
+                                <button class="table__item-btn table__item-btn--delete">delete</button>
+                            </div>
+                            
+                            <button class="dropdown">dropdown</button>
+
+                        </li>
+
+                        <li class="table__row">
+
+                            <div class="table__item-img">
+                                <img src="images/pet-img.jpg" alt="pet">
+                            </div>
+
+                            <div class="table__item-tag">ghay12</div>
+
+                            <div class="table__item-name">Marco</div>
+
+                            <div class="table__item-email">hi@riyaja.in</div>
+
+                            <div class="table__item-number">+412(2090)500</div>
+
+                            <div class="table__item-address">St. Bernard road</div>
+
+                            <div class="table__item-state">
+                                <label class="switch">
+                                    <input class="switch__input" type="checkbox">
+                                    <span class="switch__slider"></span>
+                                </label>
+                                <span class="table__item-state--block"></span>
+                            </div>
+
+                            <div class="table__item-actions">
+                                <button class="table__item-btn table__item-btn--diagram">analytics</button>
+                                <button class="table__item-btn table__item-btn--edit">edit</button>
+                                <button class="table__item-btn table__item-btn--lock">lock</button>
+                                <button class="table__item-btn table__item-btn--delete">delete</button>
+                            </div>
+                            
+                            <button class="dropdown">dropdown</button>
+
+                        </li>
+
+                        <li class="table__row">
+
+                            <div class="table__item-img">
+                                <img src="images/pet-img.jpg" alt="pet">
+                            </div>
+
+                            <div class="table__item-tag">ghay12</div>
+
+                            <div class="table__item-name">Marco</div>
+
+                            <div class="table__item-email">hi@riyaja.in</div>
+
+                            <div class="table__item-number">+412(2090)500</div>
+
+                            <div class="table__item-address">St. Bernard road</div>
+
+                            <div class="table__item-state">
+                                <label class="switch">
+                                    <input class="switch__input" type="checkbox">
+                                    <span class="switch__slider"></span>
+                                </label>
+                                <span class="table__item-state--block"></span>
+                            </div>
+
+                            <div class="table__item-actions">
+                                <button class="table__item-btn table__item-btn--diagram">analytics</button>
+                                <button class="table__item-btn table__item-btn--edit">edit</button>
+                                <button class="table__item-btn table__item-btn--lock">lock</button>
+                                <button class="table__item-btn table__item-btn--delete">delete</button>
+                            </div>
+                            
+                            <button class="dropdown">dropdown</button>
+
+                        </li>
+
+                        <li class="table__row">
+
+                            <div class="table__item-img">
+                                <img src="images/pet-img.jpg" alt="pet">
+                            </div>
+
+                            <div class="table__item-tag">ghay12</div>
+
+                            <div class="table__item-name">Marco</div>
+
+                            <div class="table__item-email">hi@riyaja.in</div>
+
+                            <div class="table__item-number">+412(2090)500</div>
+
+                            <div class="table__item-address">St. Bernard road</div>
+
+                            <div class="table__item-state">
+                                <label class="switch">
+                                    <input class="switch__input" type="checkbox">
+                                    <span class="switch__slider"></span>
+                                </label>
+                                <span class="table__item-state--block"></span>
+                            </div>
+
+                            <div class="table__item-actions">
+                                <button class="table__item-btn table__item-btn--diagram">analytics</button>
+                                <button class="table__item-btn table__item-btn--edit">edit</button>
+                                <button class="table__item-btn table__item-btn--lock">lock</button>
+                                <button class="table__item-btn table__item-btn--delete">delete</button>
+                            </div>
+                            
+                            <button class="dropdown">dropdown</button>
+
+                        </li>
+
+                    </ul>
+
+                    <div class="table__footer">
+
+                        <div class="pagination">
+
+                            <button class="pagination__arrow pagination__arrow--left"></button>
+
+                            <ul class="pagination__list">
+
+                                <li class="pagination__item">
+                                    <a class="pagination__link pagination__link--active" href="#">
+                                        1
+                                    </a>
+                                </li>
+
+                                <li class="pagination__item">
+                                    <a class="pagination__link" href="#">
+                                        2
+                                    </a>
+                                </li>
+
+                                <li class="pagination__item">
+                                    <a class="pagination__link" href="#">
+                                        3
+                                    </a>
+                                </li>
+
+                                <li class="pagination__item">
+                                    <a class="pagination__link" href="#">
+                                        4
+                                    </a>
+                                </li>
+
+                                <li class="pagination__item">
+                                    <a class="pagination__link" href="#">
+                                        5
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                            <button class="pagination__arrow pagination__arrow--right"></button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="buy-tags">
+
+                    <div class="buy-tags__top">
+
+                        <span class="title buy-tags__title">Buy Tags</span>
+                        
+                        <a class="tags__more buy-tags__more" href="#">See all</a>
+
+                    </div>
+
+                    <div class="buy-tags__content">
+
+                        <article class="tag-card">
+
+                            <div class="tag-card__top">
+
+                                <div class="tag-card__img">
+                                    <img src="images/tag-img.jpg" alt="tag">
+                                </div>
+
+                                <div class="tag-card__details">
+
+                                    <a class="tag-card__title" href="#">Bow Tie Pet Tag</a>
+                                    
+                                    <button class="tag-card__btn" type="button">$100</button>
+
+                                </div>
+                                
+                                <span class="tag-card__desc">Engrave - Memories, Etched Forever!</span>
+
+                            </div>
+                        
+                        </article>
+
+                        <article class="tag-card">
+
+                            <div class="tag-card__top">
+
+                                <div class="tag-card__img">
+                                    <img src="images/tag-img.jpg" alt="tag">
+                                </div>
+
+                                <div class="tag-card__details">
+
+                                    <a class="tag-card__title" href="#">Bow Tie Pet Tag</a>
+                                    
+                                    <button class="tag-card__btn" type="button">$100</button>
+
+                                </div>
+                                
+                                <span class="tag-card__desc">Engrave - Memories, Etched Forever!</span>
+
+                            </div>
+                        
+                        </article>
+
+                        <article class="tag-card">
+
+                            <div class="tag-card__top">
+
+                                <div class="tag-card__img">
+                                    <img src="images/tag-img.jpg" alt="tag">
+                                </div>
+
+                                <div class="tag-card__details">
+
+                                    <a class="tag-card__title" href="#">Bow Tie Pet Tag</a>
+                                    
+                                    <button class="tag-card__btn" type="button">$100</button>
+
+                                </div>
+                                
+                                <span class="tag-card__desc">Engrave - Memories, Etched Forever!</span>
+
+                            </div>
+                        
+                        </article>
+
+                        <article class="tag-card">
+
+                            <div class="tag-card__top">
+
+                                <div class="tag-card__img">
+                                    <img src="images/tag-img.jpg" alt="tag">
+                                </div>
+
+                                <div class="tag-card__details">
+
+                                    <a class="tag-card__title" href="#">Bow Tie Pet Tag</a>
+                                    
+                                    <button class="tag-card__btn" type="button">$100</button>
+
+                                </div>
+                                
+                                <span class="tag-card__desc">Engrave - Memories, Etched Forever!</span>
+
+                            </div>
+                        
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
